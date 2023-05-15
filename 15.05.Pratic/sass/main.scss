@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  nav {
+    padding: 20px 0;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    .logo {
+      h2 {
+        font-size: 30px;
+      }
+    }
+    ul {
+      margin: auto 0;
+      display: flex;
+      align-items: center;
+      gap: 80px;
+      li {
+        list-style-type: none;
+        a {
+          text-decoration: none;
+          font-size: 25px;
+          color: black;
+          padding: 10px;
+          border: 1px solid transparent;
+          &:hover {
+            border-color: #000;
+            border-radius: 15px;
+            color: red;
+          }
+        }
+      }
+    }
+    .menu {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    nav {
+      ul {
+        display: none;
+      }
+      .menu {
+        display: block;
+      }
+    }
+  }
+}
+.bac-img {
+  background-image: url(/15.05.Pratic/images/bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.table {
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+    &::before {
+      content: " ";
+      position: absolute;
+      height: 4px;
+      width: 110px;
+      background-color: brown;
+      bottom: -130px;
+    }
+  }
+  .responsive-table {
+    display: block;
+    .res-card {
+      padding-bottom: 20px;
+      .card-title {
+        .id {
+          color: blue;
+        }
+        .date {
+          color: green;
+        }
+      }
+      .card-main {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 20px;
+        .left-img {
+          img {
+            width: 50px;
+            border-radius: 50%;
+          }
+        }
+        .right-text {
+          span {
+            display: block;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  table {
+    tbody {
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .table {
+      display: none;
+    }
+  }
+}

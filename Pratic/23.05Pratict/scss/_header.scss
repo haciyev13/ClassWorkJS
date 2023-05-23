@@ -1,0 +1,35 @@
+header {
+  .container {
+    .content {
+      .navbars {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+      }
+      .logo {
+        a {
+          color: #595959;
+          font-size: 35px;
+          letter-spacing: 7px;
+        }
+      }
+      nav {
+        .dropdowns {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          .home{
+            color: #BC5148;
+          }
+          li {
+            a {
+              color: #595959;
+              font-size: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

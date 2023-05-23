@@ -1,0 +1,64 @@
+.featured-stories {
+  .container {
+    .content {
+      .stories-cards {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+        .cardsl {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 35rem;
+          height: 30rem;
+          transition: all 0.7s;
+          &:hover {
+            .text {
+              display: block;
+            }
+            .plus {
+              i {
+                display: block;
+              }
+            }
+          }
+        }
+        .pluss {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          top: 50%;
+          i {
+            display: none;
+            color: #fff;
+            font-size: 35px;
+          }
+        }
+        .texts {
+          display: none;
+          position: relative;
+          top: 65%;
+          text-align: center;
+          p {
+            color: gray;
+            font-size: 20px;
+          }
+          h5 {
+            color: #fff;
+          }
+        }
+
+        .cards-1 {
+          background-image: url(/23.05Pratict/images/work_thumb_2.jpg);
+        }
+        .cards-2 {
+          background-image: url(/23.05Pratict/images/work_thumb_3.jpg);
+        }
+        .cards-3 {
+          background-image: url(/23.05Pratict/images/work_thumb_1.jpg);
+        }
+      }
+    }
+  }
+}

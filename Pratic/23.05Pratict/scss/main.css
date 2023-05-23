@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none !important;
+}
+
+.header-top {
+  background-color: #bc5148;
+}
+.header-top .container .header-tops {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-top .container .header-tops .head-top-icons {
+  display: flex;
+  gap: 20px;
+}
+.header-top .container .header-tops .head-top-icons a {
+  color: #000;
+  font-size: 17px;
+}
+.header-top .container .header-tops .head-top-icons a:hover {
+  color: #fff;
+  transition: all 0.6s;
+}
+.header-top .container .header-tops .head-top-sign {
+  display: flex;
+  gap: 20px;
+}
+.header-top .container .header-tops .head-top-sign a {
+  color: #000;
+  font-size: 18px;
+}
+.header-top .container .header-tops .head-top-sign a:hover {
+  color: #fff;
+  transition: all 0.6s;
+}
+.header-top .container .header-tops .head-top-sign .sponsor {
+  padding: 15px;
+}
+.header-top .container .header-tops .head-top-sign .login {
+  background-color: #f4b214;
+  padding: 15px;
+}
+
+header .container .content .navbars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+header .container .content .logo a {
+  color: #595959;
+  font-size: 35px;
+  letter-spacing: 7px;
+}
+header .container .content nav .dropdowns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .container .content nav .dropdowns .home {
+  color: #BC5148;
+}
+header .container .content nav .dropdowns li a {
+  color: #595959;
+  font-size: 23px;
+}
+
+.carusella .carousel-caption {
+  top: 50%;
+}
+.carusella .carousel-caption h2 {
+  font-family: "Sacramento", cursive;
+  text-align: left;
+  font-size: 38px;
+}
+.carusella .carousel-caption h1 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 49px;
+  padding: 10px 0;
+}
+.carusella .carousel-caption p {
+  text-align: left;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.carusella .carousel-caption button {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 30px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.carusella .carousel-item h1, .carusella .carousel-item p, .carusella .carousel-item h2 {
+  color: #000;
+}
+
+.accardion {
+  padding: 100px 0;
+}
+.accardion .container .content {
+  display: flex;
+  gap: 30px;
+}
+.accardion .container .content .acc-left {
+  width: 50%;
+}
+.accardion .container .content .acc-left .card-body p {
+  font-size: 20px;
+  color: #5c626d;
+  line-height: 35px;
+}
+.accardion .container .content .acc-left .card-body button {
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.accardion .container .content .acc-right {
+  width: 50%;
+}
+.accardion .container .content .acc-right h1 {
+  padding: 20px 0;
+}
+.accardion .container .content .acc-right p {
+  color: #5c626d;
+  line-height: 30px;
+  font-size: 20px;
+}
+.accardion .container .content .acc-right button {
+  font-size: 23px;
+}
+
+.waiting .container .content .waiting-childeren {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.waiting .container .content .waiting-childeren a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.waiting .container .content .waiting-childeren p {
+  color: gray;
+  line-height: 45px;
+  font-size: 28px;
+  text-align: center;
+}
+.waiting .container .content .card-bot {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 0;
+}
+.waiting .container .content .card-bot .card:hover {
+  cursor: pointer;
+}
+.waiting .container .content .card-bot .card .delete {
+  background-color: red;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.waiting .container .content .card-bot .card .favorite {
+  background-color: green;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 8px;
+}
+.waiting .container .content .card-bot .card .edit {
+  background-color: lightseagreen;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.featured-stories .container .content .stories-cards {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.featured-stories .container .content .stories-cards .cardsl {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35rem;
+  height: 30rem;
+  transition: all 0.7s;
+}
+.featured-stories .container .content .stories-cards .cardsl:hover .text {
+  display: block;
+}
+.featured-stories .container .content .stories-cards .cardsl:hover .plus i {
+  display: block;
+}
+.featured-stories .container .content .stories-cards .pluss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+}
+.featured-stories .container .content .stories-cards .pluss i {
+  display: none;
+  color: #fff;
+  font-size: 35px;
+}
+.featured-stories .container .content .stories-cards .texts {
+  display: none;
+  position: relative;
+  top: 65%;
+  text-align: center;
+}
+.featured-stories .container .content .stories-cards .texts p {
+  color: gray;
+  font-size: 20px;
+}
+.featured-stories .container .content .stories-cards .texts h5 {
+  color: #fff;
+}
+.featured-stories .container .content .stories-cards .cards-1 {
+  background-image: url(/23.05Pratict/images/work_thumb_2.jpg);
+}
+.featured-stories .container .content .stories-cards .cards-2 {
+  background-image: url(/23.05Pratict/images/work_thumb_3.jpg);
+}
+.featured-stories .container .content .stories-cards .cards-3 {
+  background-image: url(/23.05Pratict/images/work_thumb_1.jpg);
+}
+
+.updates {
+  padding: 40px 0;
+}
+.updates .container .content h1 {
+  padding: 50px 0;
+}
+.updates .container .content form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.updates .container .content form input, .updates .container .content form button {
+  width: 30%;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+.updates .container .content form button {
+  background-color: #CA746D;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */

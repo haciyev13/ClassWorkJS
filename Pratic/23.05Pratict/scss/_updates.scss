@@ -1,0 +1,27 @@
+.updates {
+  padding: 40px 0;
+  .container {
+    .content {
+      h1 {
+        padding: 50px 0;
+      }
+      form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input,button {
+            width: 30%;
+            padding: 15px;
+            border: 1px solid gray;
+            border-radius: 8px;
+        }
+        button{
+            background-color: #CA746D;
+            font-size: 22px;
+            color: #fff;
+            font-weight: 700;
+        }
+      }
+    }
+  }
+}

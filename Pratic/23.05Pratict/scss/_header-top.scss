@@ -1,0 +1,41 @@
+.header-top {
+    background-color: #bc5148;
+    .container {
+      .header-tops {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .head-top-icons {
+          display: flex;
+          gap: 20px;
+          a {
+            color: #000;
+            font-size: 17px;
+            &:hover {
+              color: #fff;
+              transition: all 0.6s;
+            }
+          }
+        }
+        .head-top-sign {
+          display: flex;
+          gap: 20px;
+          a {
+            color: #000;
+            font-size: 18px;
+            &:hover{
+              color: #fff;
+              transition: all 0.6s;
+            }
+          }
+          .sponsor {
+            padding: 15px;
+          }
+          .login {
+            background-color: #f4b214;
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }

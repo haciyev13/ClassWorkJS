@@ -1,0 +1,37 @@
+.accardion {
+  padding: 100px 0;
+  .container {
+    .content {
+      display: flex;
+      gap: 30px;
+      .acc-left {
+        width: 50%;
+        .card-body {
+          p {
+            font-size: 20px;
+            color: #5c626d;
+            line-height: 35px;
+          }
+          button {
+            padding: 10px 30px;
+            font-size: 20px;
+          }
+        }
+      }
+      .acc-right {
+        width: 50%;
+        h1{
+            padding: 20px 0;
+        }
+        p{
+            color: #5c626d;
+            line-height: 30px;
+            font-size: 20px;
+        }
+        button{
+            font-size: 23px;
+        }
+      }
+    }
+  }
+}
